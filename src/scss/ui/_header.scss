@@ -1,0 +1,52 @@
+@use 'base/variables' as v ;
+@use 'base/mixins'  as m;
+
+.notavif.notwebp .site-header {
+    @include m.bgImage('../assets/img/header.jpg', v.$secundarioOpacity);
+}
+
+.webp .site-header {
+    @include m.bgImage('../assets/img/header.webp', v.$secundarioOpacity);
+}
+
+.avif .site-header {
+    @include m.bgImage('../assets/img/header.avif', v.$secundarioOpacity);
+}
+
+.site-header {
+    padding: v.$separacion 0;
+
+    .logo {
+        max-width: 20rem;
+        margin: 0 auto;
+
+        @include m.tablet {
+            margin: 0;
+        }
+    }
+
+    .contenido-header {
+        padding: 10rem 0;
+
+        @include m.desktop {
+            padding: 15rem 0;
+        }
+
+        h1 {
+            color: v.$blanco;
+            font-size: 4rem;
+            text-align: center;
+            margin-bottom: 4rem;
+
+            @include m.tablet {
+                text-align: left;
+                font-size: 6rem;
+                max-width: 70%;
+            }
+
+            @include m.desktop {
+                max-width: 40%;
+            }
+        }
+    }
+}
