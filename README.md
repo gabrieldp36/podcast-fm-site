@@ -1,6 +1,6 @@
+![portada](https://github.com/gabrieldp36/podcast-fm-site/assets/88417383/85689c23-0817-4af2-b61b-5793b2df1800)
 
-
-# Podcst FM.
+# Podcast FM.
 
 El presente proyecto se trata de la maquetación de un sitio web de una aplicación de Podcast.
 
@@ -13,5 +13,5 @@ El sitio cuenta con animaciones desarrolladas mediante css. También se incorpor
 Para visitar la web pueden hacer click en el siguiente link:
 
 ```
-
+https://podcast-fm-gdp.netlify.app/
 ```
