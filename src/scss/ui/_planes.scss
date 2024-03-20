@@ -40,6 +40,7 @@
         }
 
         @include m.desktop {
+            min-height: 51.75rem;
             border: none;
             transition-property: transform;
             transition-duration: .3s;
@@ -47,6 +48,10 @@
 
             &:hover {
                 transform: scale(1.1);
+            }
+
+            .boton-plan--standard {
+                margin-top: 5.6rem;
             }
         }
 
